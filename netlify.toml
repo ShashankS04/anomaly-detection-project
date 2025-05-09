@@ -1,0 +1,3 @@
+[build]
+  command = "mise install && pip install -r requirements.txt"
+  publish = "dist"  # ← or whatever folder your frontend build outputs to
